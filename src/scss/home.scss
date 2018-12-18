@@ -22,7 +22,8 @@ body {
     justify-content: center;
 }
 
-.home--article {
+.home--play {
+    padding-top: 100px;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -46,5 +47,31 @@ body {
     transform: rotate(10deg);
 }
 
+.home__title {
+    width: 55%;
+    height: 45%;
+    position: absolute;
+    right: 200px;
+    top: 30px;
+}
 
+.home--credit {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 310px;
+    transform: rotate(-10deg)
+}
 
+.home__subtitle--credit {
+    font-size: 16px;
+    padding-top: 8px; 
+}
+
+.home__picture--credit {
+    width: 15%;
+    height: 15%;
+}
