@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Pixeled";
+    src: url("/Font/Pixeled.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-image: url("/img/fond.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home--opacity {
+    background: rgba($color: white, $alpha: 0.3);
+    height: 100vh;
+}
+
+.home__section {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.home--article {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__subtitle {
+    color: white;
+    font-size: 25px;
+    font-family: "Pixeled";
+    position: absolute;
+    transform: rotate(10deg);
+    z-index: 1;
+    padding-bottom: 10px; 
+}
+
+.home__picture {
+    width: 20%;
+    height: 20%;
+    transform: rotate(10deg);
+}
+
+
+
